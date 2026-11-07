@@ -1,0 +1,84 @@
+/* Estilos Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+}
+
+header,
+footer {
+    background-color: #1e3a5f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2.4rem 3.8rem;
+    color: white;
+}
+
+h1 {
+    font-size: 3.2rem;
+}
+
+h2 {
+    color: #1e3a5f;
+    font-size: 1.9rem;
+}
+
+p {
+    font-size: 1.7rem;
+}
+
+a {
+    color: #2108e3;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    padding: 2.2rem 3.4rem;
+    box-shadow: inset 0 0 0.8rem 0.2rem rgba(128, 128, 128, 0.442);
+    height: 20rem;
+    width: 45rem;
+    margin: 3rem auto;
+    border-radius: 1.5rem;
+}
+
+/* Seção Cabeçalho */
+.destaque-paragrafo {
+    color: #9fd3ff;
+}
+
+/* Seção Banner */
+.banner {
+    display: flex;
+    align-items: center;
+}
+
+.banner img {
+    width: 45rem;
+    margin: 3rem auto;
+    border-radius: 1.5rem;
+}
+
+/* Seção Link */
+.link {
+    background-color: #9fd2ff59;
+    height: 10rem;
+    border-left: 0.6rem solid #1e3a5f;
+}
+
+.link p {
+    color: #1e3a5f;
+}
